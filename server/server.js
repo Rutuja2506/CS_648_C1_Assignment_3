@@ -6,25 +6,25 @@ const { ApolloServer } = require('apollo-server-express');
 const ProdDB = [
     {
         id: 1,
-        name: 'Blue Shirt',
-        category: 'Shirts' ,
-        price: 30 ,
-        imageURL: 'https://www.shutterstock.com/image-photo/happy-handsome-man-wear-blue-shirt-743634955',
+        name: 'Knitted Sweater',
+        category: 'Sweaters' ,
+        price: 89 ,
+        imageURL: 'https://www.shutterstock.com/image-photo/knitted-by-hand-blue-grey-mohair-645084376',
     },
 
     {
         id: 2,
-        name: 'Blue Denim',
-        category: 'Jeans' ,
-        price: 50 ,
-        imageURL: 'https://www.shutterstock.com/image-photo/blue-jeans-isolated-on-white-96398333',
+        name: 'Leather Jacket',
+        category: 'Jackets' ,
+        price: 40 ,
+        imageURL: 'https://www.istockphoto.com/photo/young-fashion-woman-in-black-leather-jacket-walking-in-city-street-gm939232454-256813555',
     },
     {
         id: 3,
-        name: 'Leather Brown Belt',
+        name: 'Beach Hat',
         category: 'Accessories' ,
         price: 50 ,
-        imageURL: 'https://www.shutterstock.com/image-photo/fastened-fashionable-mens-brown-leather-belt-1038772180',
+        imageURL: 'https://www.shutterstock.com/image-photo/top-view-yellow-striped-retro-hat-657860179',
     },
 
 
